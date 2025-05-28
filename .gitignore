@@ -1,0 +1,47 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/blogs.dir/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+sitemap.xml
+sitemap.xml.gz
+*.log
+wp-content/mu-plugins/health-check-troubleshooting-mode.php
+wp-content/mu-plugins/pantheon_clear_cache.php
+
+# MAMP specific (if any, usually not needed in project root)
+# .DS_Store (macOS)
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE / Editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node / Build specific (if you use npm/yarn later)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+# If you only want to commit your package.json and yarn.lock/package-lock.json but not the actual dependencies,
+# then keep node_modules/ here. If you ARE committing vendor dependencies (not usually recommended for node_modules), remove it.
+
+# Composer specific (if you use PHP Composer later)
+vendor/
+composer.lock
+# If you only want to commit your composer.json and composer.lock but not the actual dependencies,
+# then keep vendor/ here. If you ARE committing vendor dependencies, remove vendor/.
+# However, for themes/plugins from wordpress.org, you typically don't commit vendor folders within them.
+
+# Specific plugin/theme files you might not want to track (example)
+# wp-content/plugins/some-plugin/some-sensitive-file.txt
